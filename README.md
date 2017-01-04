@@ -91,5 +91,27 @@ sudo ifup   wlan0
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install vim git
+```
+
+## vim
+```bash
+cd
+sudo apt-get install -y vim
+git clone https://github.com/SeijiKitamura/vimrc.git
+cp vimrc/.vimrc ./
+mkdir -p .vim/bunble
+cd .vim/bundle
+git clone git://github.com/Shougo/neobundle.vim
+cd
+echo "alias vi='/usr/bin/vim'" >> .bashrc
+soruce .bashrc
+```
+
+## git
+```bash
+cd
+sudo apt-get install -y git
+git config --global user.name 'ユーザー名'
+git config --global user.emal メールアドレス
+git config --global core.editor vim
 ```
