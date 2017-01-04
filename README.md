@@ -13,32 +13,42 @@ sudo raspi-config
 ```
 
 ### Hostname
+```bash
 Advanced Options
 Hostname
 任意のHostnameを入力
+```
 
 ### キーボード設定
-Internationalisation Options  
-Change Keyboard Layout  
-Generic 105-key(Intl)PC  
-Japanese  
-The default for the keyboard layout  
-No compose key  
+```bash
+Internationalisation Options
+Change Keyboard Layout
+Generic 105-key(Intl)PC
+Japanese
+The default for the keyboard layout
+No compose key
+```
 
 ### タイムゾーン
-Internationalisation Options  
-Asia  
-Tokyo  
+```bash
+Internationalisation Options
+Asia
+Tokyo
+```
 
 ### ファイル拡張
-Expand Filesystem  
-再起動  
+```bash
+Expand Filesystem
+再起動
+```
 
 ### SSHサーバー有効化
-Advanced Options  
-SSH  
-Enable  
-再起動  
+```bash
+Advanced Options
+SSH
+Enable
+再起動
+```
 
 ## IP Address
 ### 有線LAN
