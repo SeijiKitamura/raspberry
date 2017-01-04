@@ -26,19 +26,19 @@ The default for the keyboard layout
 No compose key  
 
 ### タイムゾーン
-Internationalisation Options
-Asia
-Tokyo
+Internationalisation Options  
+Asia  
+Tokyo  
 
 ### ファイル拡張
-Expand Filesystem
-再起動
+Expand Filesystem  
+再起動  
 
 ### SSHサーバー有効化
-Advanced Options
-SSH
-Enable
-再起動
+Advanced Options  
+SSH  
+Enable  
+再起動  
 
 ## IP Address
 ### 有線LAN
@@ -78,6 +78,8 @@ sudo ifup   wlan0
 ```
 
 ## Update
+```bash
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install vim git
+```
